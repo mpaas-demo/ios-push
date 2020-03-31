@@ -1,0 +1,106 @@
+PODS:
+  - APCrashReporter (1.0.0.200108195846):
+    - APLog
+    - APRemoteLogging
+    - mPaas
+  - APLog (3.0.2.190701174234)
+  - APMobileNetwork (1.0.0.200219172832):
+    - APOpenSSL
+    - APSecurityUtility
+    - mPaas
+    - SecurityGuardSDK
+  - APOpenSSL (1.0.0.190226125531)
+  - APProtocolBuffers (1.0.1.190906170603)
+  - APRemoteLogging (1.0.0.200323194150):
+    - APProtocolBuffers
+    - mPaas
+    - UTDID
+  - APSecurityUtility (1.2.0.171012202618)
+  - AutoTracker (1.0.0.190909104429):
+    - APRemoteLogging
+    - mPaas
+  - mPaas (1.0.0.200210192055):
+    - APLog
+  - MPDataCenter (1.0.0.190917163242):
+    - mPaas
+  - MPMasAdapter (1.0.0.200116173050):
+    - APCrashReporter
+    - APRemoteLogging
+    - AutoTracker
+    - MPPerformance
+  - MPMgsAdapter (1.0.0.191111163231):
+    - APMobileNetwork
+  - MPPerformance (1.0.0.190911163314):
+    - APRemoteLogging
+    - AutoTracker
+    - MPDataCenter
+    - TianYan
+  - MPPushSDK (1.0.0.200116191323):
+    - APMobileNetwork
+    - APProtocolBuffers
+    - APRemoteLogging
+  - SecurityGuardSDK (2.2.3.190326110928)
+  - TianYan (1.0.0.191211163039)
+  - UTDID (1.0.2.190226130141)
+
+DEPENDENCIES:
+  - APCrashReporter (= 1.0.0.200108195846)
+  - APLog (= 3.0.2.190701174234)
+  - APMobileNetwork (= 1.0.0.200219172832)
+  - APOpenSSL (= 1.0.0.190226125531)
+  - APProtocolBuffers (= 1.0.1.190906170603)
+  - APRemoteLogging (= 1.0.0.200323194150)
+  - APSecurityUtility (= 1.2.0.171012202618)
+  - AutoTracker (= 1.0.0.190909104429)
+  - mPaas (= 1.0.0.200210192055)
+  - MPDataCenter (= 1.0.0.190917163242)
+  - MPMasAdapter (= 1.0.0.200116173050)
+  - MPMgsAdapter (= 1.0.0.191111163231)
+  - MPPerformance (= 1.0.0.190911163314)
+  - MPPushSDK (= 1.0.0.200116191323)
+  - SecurityGuardSDK (= 2.2.3.190326110928)
+  - TianYan (= 1.0.0.191211163039)
+  - UTDID (= 1.0.2.190226130141)
+
+SPEC REPOS:
+  https://code.aliyun.com/mpaas-public/podspecs.git:
+    - APCrashReporter
+    - APLog
+    - APMobileNetwork
+    - APOpenSSL
+    - APProtocolBuffers
+    - APRemoteLogging
+    - APSecurityUtility
+    - AutoTracker
+    - mPaas
+    - MPDataCenter
+    - MPMasAdapter
+    - MPMgsAdapter
+    - MPPerformance
+    - MPPushSDK
+    - SecurityGuardSDK
+    - TianYan
+    - UTDID
+
+SPEC CHECKSUMS:
+  APCrashReporter: decbbc2a9b5f0dcf29cbf245049820a1fee4a24c
+  APLog: 544dd57a9005ba27800828bccd3dfd41d3d7fd14
+  APMobileNetwork: efd0fe6c888628b82fcbf8046b64cfa956152935
+  APOpenSSL: ffe0b1c5663a14ee242c8b87bda36b75cef677ed
+  APProtocolBuffers: d14ba18b5665b8b445c833e005d6ed8cecceb4cb
+  APRemoteLogging: fd2e10b0b2068ad9bfe92d2d3ef8a224404244bc
+  APSecurityUtility: cae80d8bb130d0aa5c447c944218f280fde84efc
+  AutoTracker: 83c5beee8c71d364504f27a3b2abe019dfec0331
+  mPaas: d3aeda876d3ecb149f4f43b6d6a3725c11b2ce97
+  MPDataCenter: bbbf8c978d680edacdce1de55ba6b0cdd8707057
+  MPMasAdapter: da8e6c09b41b753703b2aaa019d7dd9e014eea96
+  MPMgsAdapter: d2948dc18b8c3e4b4286fb2bee743b6275ec3af2
+  MPPerformance: 26b8113e1b51568c514455a1426f6f56be5e0e5f
+  MPPushSDK: d71023909f95fd5aa38f12956265dcfdd74352a4
+  SecurityGuardSDK: 8e41a1e06e55e4a8092f4dd792329a71c25bee00
+  TianYan: 86b380a2c931a7fe02159e747db2f9869ecf827b
+  UTDID: 2c9434763223c4c7eed0ba36d8af4fe3a664eda7
+
+PODFILE CHECKSUM: 652422255d46cd506aa5a5f29b29515b20b467d6
+
+COCOAPODS: 1.7.5

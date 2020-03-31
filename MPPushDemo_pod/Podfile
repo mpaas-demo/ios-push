@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# mPaaS Pods Begin
+plugin "cocoapods-mPaaS", :show_all_specs => true
+source "https://code.aliyun.com/mpaas-public/podspecs.git"
+#use_pod_for_mPaaS!
+mPaaS_baseline '10.1.60'  # 请将 x.x.x 替换成真实基线版本
+mPaaS_version_code 29   # This line is maintained by MPaaS plugin automatically. Please don't modify.
+# mPaaS Pods End
+ platform :ios, '9.0'
+
+target 'PushDemo' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for PushDemo
+  mPaaS_pod "mPaaS_Push"
+
+
+end

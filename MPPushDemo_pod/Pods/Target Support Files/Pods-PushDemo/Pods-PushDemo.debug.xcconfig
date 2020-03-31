@@ -1,0 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/APCrashReporter" "${PODS_ROOT}/APLog" "${PODS_ROOT}/APMobileNetwork" "${PODS_ROOT}/APOpenSSL" "${PODS_ROOT}/APProtocolBuffers" "${PODS_ROOT}/APRemoteLogging" "${PODS_ROOT}/APSecurityUtility" "${PODS_ROOT}/AutoTracker" "${PODS_ROOT}/MPDataCenter" "${PODS_ROOT}/MPMasAdapter" "${PODS_ROOT}/MPMgsAdapter" "${PODS_ROOT}/MPPerformance" "${PODS_ROOT}/MPPushSDK" "${PODS_ROOT}/SecurityGuardSDK" "${PODS_ROOT}/TianYan" "${PODS_ROOT}/UTDID" "${PODS_ROOT}/mPaas" $(PODS_ROOT)/APCrashReporter $(PODS_ROOT)/APLog $(PODS_ROOT)/APMobileNetwork $(PODS_ROOT)/APOpenSSL $(PODS_ROOT)/APProtocolBuffers $(PODS_ROOT)/APRemoteLogging $(PODS_ROOT)/APSecurityUtility $(PODS_ROOT)/AutoTracker $(PODS_ROOT)/MPMasAdapter $(PODS_ROOT)/MPMgsAdapter $(PODS_ROOT)/SecurityGuardSDK $(PODS_ROOT)/TianYan $(PODS_ROOT)/UTDID
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) $(SDKROOT)/usr/include/libxml2
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"sqlite3" -l"xml2" -l"z" -framework "APCrashReporter" -framework "APLog" -framework "APMobileNetwork" -framework "APOpenSSL" -framework "APProtocolBuffers" -framework "APRemoteLogging" -framework "APSecurityUtility" -framework "AutoTracker" -framework "CoreMotion" -framework "CoreTelephony" -framework "MPDataCenter" -framework "MPMasAdapter" -framework "MPMgsAdapter" -framework "MPPerformance" -framework "MPPushSDK" -framework "SGMain" -framework "SecurityGuardSDK" -framework "TianYan" -framework "UTDID" -framework "Webkit" -framework "mPaas"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
